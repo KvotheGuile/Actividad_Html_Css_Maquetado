@@ -73,7 +73,7 @@ header a{
 }
 
 #signin-buttons{
-    float: right;
+
 }
 
 #menu a{
@@ -85,10 +85,15 @@ header a{
     background-color: #7c899c;
 }
 
+#signin-buttons li{
+    margin: 5px;
+}
+
 #signin a{
     background-color: #F1F5F9;
     color: #0F172A;
-    padding: 15px;
+    padding: 5px;
+    border-radius: 6px;
 }
 
 #signin a:hover{
@@ -99,7 +104,8 @@ header a{
 #login a{
     background-color: #0F172A;
     color: #ced1d3;
-    padding: 15px;
+    padding: 5px;
+    border-radius: 6px;
 }
 
 #login a:hover{
