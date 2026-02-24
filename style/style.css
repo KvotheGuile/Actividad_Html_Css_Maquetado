@@ -46,6 +46,10 @@ main{
 
 header{
     display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header ul{
@@ -57,9 +61,20 @@ header li{
     display: inline;
 }
 
+header a{
+    text-decoration: none;
+}
+
+#menu{
+    float: left;
+}
+
+#signin-buttons{
+    float: right;
+}
+
 #menu a{
     color:#99F6E4;
-    text-decoration: none;
     padding: 15px 30px;
 }
 
@@ -67,8 +82,51 @@ header li{
     background-color: #7c899c;
 }
 
+#signin a{
+    background-color: #F1F5F9;
+    color: #0F172A;
+    padding: 15px;
+}
+
+#signin a:hover{
+    background-color: #ced1d3;
+}
+
+
+#login a{
+    background-color: #0F172A;
+    color: #ced1d3;
+    padding: 15px;
+}
+
+#login a:hover{
+    background-color: #3f4757;
+}
 
 .service, #contact-container{
     background-color: #FFFFFF;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 10px;
 }
 
+#content{
+    width: 45%;
+    float: left;
+}
+
+#image{
+    width: 52%;
+    float: right;
+    background: #4E8BDB;
+    background: linear-gradient(180deg, rgba(78, 139, 219, 1) 0%, rgba(24, 131, 51, 1) 40%, rgba(101, 186, 58, 1) 100%);
+    height: 870px;
+    border-radius: 20px;
+    color: white;
+    padding: 30px;
+    font-size: 0.9rem;
+}
+
+#image h2{
+    font-size: 1.2rem;
+}
