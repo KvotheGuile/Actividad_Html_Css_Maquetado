@@ -11,7 +11,7 @@
 }
 
 html{
-    font-size: 16px;
+    font-size: 15px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -93,7 +93,8 @@ header a{
 #signin a{
     background-color: #F1F5F9;
     color: #0F172A;
-    padding: 5px;
+    padding: 8px;
+    border-radius: 6px;
 }
 
 #signin a:hover{
@@ -104,7 +105,8 @@ header a{
 #login a{
     background-color: #0F172A;
     color: #ced1d3;
-    padding: 5px;
+    padding: 9px;
+    border-radius: 6px;
 }
 
 #login a:hover{
