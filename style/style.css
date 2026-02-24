@@ -118,6 +118,14 @@ header a{
     margin: 25px;
 }
 
+.service p{
+    color: gray;
+}
+
+#contact-container p{
+    color: gray;
+}
+
 #about-us-par{
     margin-left: 25px;
     margin-right: 25px;
