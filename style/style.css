@@ -106,16 +106,42 @@ header a{
     background-color: #3f4757;
 }
 
+#service-container{
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+}
+
 .service, #contact-container{
     background-color: #FFFFFF;
     border-radius: 6px;
     padding: 5px;
-    margin: 10px;
+    margin: 25px;
+}
+
+#about-us-par{
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 #content{
     width: 45%;
     float: left;
+}
+
+#content h2{
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+#contact-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%/1, max(64px, 100%/2)), 1fr));
+}
+
+.contact{
+    width: 40px;
+    margin: 0px;
+  padding: 10px;
 }
 
 #image{
