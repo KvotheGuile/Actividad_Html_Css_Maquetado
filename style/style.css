@@ -167,3 +167,11 @@ header a{
 #image h2{
     font-size: 1.2rem;
 }
+
+
+@media (max-width:768px) {
+    #image, #content{
+        float: none;
+        width: 100%;
+    }
+}
