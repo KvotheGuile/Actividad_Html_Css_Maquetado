@@ -78,6 +78,30 @@ header a{
     text-decoration: none;
 }
 
+/*buttons*/
+#signin a{
+    background-color: #F1F5F9;
+    color: #0F172A;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+#signin a:hover{
+    background-color: #ced1d3;
+}
+
+
+#login a{
+    background-color: #0F172A;
+    color: #ced1d3;
+    padding: 9px;
+    border-radius: 6px;
+}
+
+#login a:hover{
+    background-color: #3f4757;
+}
+
 /*main*/
 #content{
     margin-left: 25px;
