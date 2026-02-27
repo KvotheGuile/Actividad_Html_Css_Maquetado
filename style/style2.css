@@ -104,9 +104,7 @@ header a{
 
 /*main*/
 #content{
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 25px;
+    margin: 35px;
 }
 
 /*services*/
@@ -140,5 +138,12 @@ header a{
 
 /*aside*/
 aside{
+    margin: 50px;
     color: white;
+    border-radius: 10px;
+    padding: 75px;
+}
+
+#image h2{
+    font-size: 1.2rem;
 }
