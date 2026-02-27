@@ -25,6 +25,7 @@ body{
   display: grid;
   grid-template-columns: 6fr 6fr;
   grid-template-rows: 1fr 11fr;
+  background-color: #CBD5E1;
 }
 
 #head{
@@ -81,6 +82,7 @@ header a{
 #content{
     margin-left: 25px;
     margin-right: 25px;
+    margin-bottom: 25px;
 }
 
 /*services*/
@@ -97,6 +99,11 @@ header a{
 }
 
 /*contacts*/
+#contact-container{
+    background-color: white;
+    border-radius: 6px;
+    padding: 10px;
+}
 
 /*aside*/
 aside{
