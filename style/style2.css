@@ -134,7 +134,7 @@ header a{
 #contact-container{
     background-color: white;
     border-radius: 6px;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     justify-content: space-around;
     gap: 20px;
