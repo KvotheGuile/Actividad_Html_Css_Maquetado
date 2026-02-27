@@ -39,7 +39,7 @@ main{
 }
 
 #image{
-    background-color: purple;
+  background: linear-gradient(180deg, rgba(78, 139, 219, 1) 0%, rgba(24, 131, 51, 1) 40%, rgba(101, 186, 58, 1) 100%);
   grid-column: 2/2;
   grid-row: 2/2;
 }
