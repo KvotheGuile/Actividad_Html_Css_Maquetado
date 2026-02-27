@@ -96,6 +96,7 @@ header a{
     background-color: white;
     border-radius: 6px;
     padding: 10px;
+    flex: 1 0 40%;
 }
 
 /*contacts*/
@@ -103,6 +104,14 @@ header a{
     background-color: white;
     border-radius: 6px;
     padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contact{
+    flex: 1 0 35%;
 }
 
 /*aside*/
