@@ -11,7 +11,7 @@ html{
     font-style: normal;
 }
 
-/*sections header*/
+/*sections h-text*/
 h1{
     font-size:1.5rem;
     color: white;
@@ -65,7 +65,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap: 11px;
+    gap: 25px;
     list-style: none;
 }
 
@@ -83,6 +83,7 @@ header a{
     margin-right: 25px;
 }
 
+/*services*/
 #service-container{
     display: flex;
     justify-content: space-evenly;
@@ -94,6 +95,8 @@ header a{
     border-radius: 6px;
     padding: 10px;
 }
+
+/*contacts*/
 
 /*aside*/
 aside{
