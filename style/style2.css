@@ -152,3 +152,43 @@ aside{
 #image h2{
     font-size: 1.2rem;
 }
+
+/*responsiveness*/
+@media (max-width:768px) {
+    main{
+        margin-top: 0px;
+    }
+    
+    body{
+        margin-top: 0px;
+        display: block;
+    }
+
+    #head{
+        margin-top: 0px;
+        min-height: 120px;
+        padding: 15px;
+        display: block;
+    }
+
+    #left-bar{
+        display: block;
+        margin: 5px;
+    }
+
+    #left-bar h1{
+        text-align: center;
+    }
+
+    #left-bar img{
+        float: left;
+    }
+
+    #signin-buttons{
+        margin: 5px;
+    }
+
+    #menu a{
+        padding: 5px;
+    }
+}
