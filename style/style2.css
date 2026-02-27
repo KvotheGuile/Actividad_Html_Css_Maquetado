@@ -72,6 +72,11 @@ main{
 
 #menu a{
     color:#99F6E4;
+    padding: 20px;
+}
+
+#menu a:hover{
+    background-color: #7c899c;
 }
 
 header a{
