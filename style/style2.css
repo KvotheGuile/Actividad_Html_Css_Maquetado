@@ -126,6 +126,10 @@ header a{
     flex: 1 0 40%;
 }
 
+.service p{
+    color: gray;
+}
+
 /*contacts*/
 #contact-container{
     background-color: white;
@@ -139,6 +143,10 @@ header a{
 
 .contact{
     flex: 1 0 35%;
+}
+
+#contact-container p{
+    color: gray;
 }
 
 /*aside*/
