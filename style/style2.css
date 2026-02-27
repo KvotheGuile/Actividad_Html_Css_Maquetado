@@ -77,6 +77,24 @@ header a{
     text-decoration: none;
 }
 
+/*main*/
+#content{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#service-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+
+.service{
+    background-color: white;
+    border-radius: 6px;
+    padding: 10px;
+}
+
 /*aside*/
 aside{
     color: white;
